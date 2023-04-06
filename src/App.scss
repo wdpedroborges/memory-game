@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+/* card */
+$primeiraCor: #f6f8f9;
+$segundaCor: #fff2ca;
+
+.flip {
+  position: relative;
+  width: 5vw;
+  padding-bottom: 5vw;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  color: #212121;
+  word-break: break-all;
+  font-size: 1vw;
+}
+
+.front {
+  background: $segundaCor;
+}
+
+.back {
+  background: $primeiraCor;
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 1080px) {
+  .front, .back {
+    border-radius: 0;
+  }
+}
