@@ -1,12 +1,3 @@
-# Memory Game
-## A different approach regarding memory games
-
----
-
-Memory Game is a different type of memory game, because the user can set their own cards and they don't need to be necessarily equal. That means this memory game can become also a quiz. To do that, the user needs to set each pair of cards in the form of question-answer. The app is also responsive, adapting to different screen sizes, and provides a seamless user experience on both desktop and mobile devices.
-
----
-
 ![badge](https://img.shields.io/github/watchers/wdpedroborges/memory-game?style=social)
 ![badge](https://img.shields.io/github/stars/wdpedroborges/memory-game?style=social)
 ![badge](https://img.shields.io/github/license/wdpedroborges/memory-game)
@@ -15,11 +6,14 @@ Memory Game is a different type of memory game, because the user can set their o
 ![badge](https://img.shields.io/badge/powered%20by-typescript-blue)
 ![badge](https://img.shields.io/badge/powered%20by-sass-blue)
 
----
+# Memory Game
+## A different approach regarding memory games
+
+Memory Game is a different type of memory game, because the user can set their own cards and they don't need to be necessarily equal. That means this memory game can become also a quiz. To do that, the user needs to set each pair of cards in the form of question-answer. The app is also responsive, adapting to different screen sizes, and provides a seamless user experience on both desktop and mobile devices.
 
 ## Live Demo
 
-[Click here to see it]((wdpedroborges.github.io/memory-game))
+wdpedroborges.github.io/memory-game
 
 ## Features
 
